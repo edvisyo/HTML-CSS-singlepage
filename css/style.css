@@ -1,0 +1,398 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    width: 80%;
+}
+header {
+    background-color:#222222;
+    height: 70px; 
+}
+
+header p {
+    float: left;
+    color: #ffffff;
+    font-family: 'IBM Plex Serif', serif;
+    margin-top: 17px;
+}
+
+a {
+    float: right;
+    color: #ffffff;
+    text-decoration: none;
+    margin-top: 17px;
+    padding: 5px;
+}
+
+.kazkas {
+    clear: both;
+    margin-left: 40px;
+}
+
+.kazkas ul {
+    margin-top: 10px;
+    margin-bottom: 60px;
+    list-style: none;
+    text-align: center;
+}
+
+.kazkas li {
+    display: inline;
+    padding:0px 50px 50px 0px;
+}
+
+#content1 {
+    min-height: 530px;
+}
+
+.image {
+    clear: both;
+    position: absolute;
+    background-image: url("../image/arches-architecture-bar-building-305832.jpg");
+    display: block;
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 450px; 
+}
+
+.position {
+    clear: both;
+    margin-top: 150px;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+.position p {
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.position h3 {
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 40px;
+}
+
+#cards {
+    display: grid;
+    align-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.textShadow {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #e8e8e8;
+    border-radius: 4px;
+    text-align: center; 
+    padding: 10px 10px;
+    -webkit-box-shadow: -1px 0px 19px 9px rgba(170,170,170,1);
+    -moz-box-shadow: -1px 0px 19px 9px rgba(170,170,170,1);
+    box-shadow: -1px 0px 19px 9px rgba(170,170,170,1);
+}
+
+.textShadow a {
+    color: #d2bb74;
+    text-decoration: underline;
+}
+
+#images {
+    width: 80px;
+    height: 80px;
+}
+
+.text {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #e8e8e8;
+    border-radius: 4px;
+    text-align: center; 
+    padding: 10px 10px;
+}
+
+.text a {
+    color: #d2bb74;
+    text-decoration: none;
+}
+
+.text h3 {
+    margin-bottom: 20px;
+}
+
+.content {
+    margin-top: 70px;
+    margin-bottom: 100px;
+    background-color: #e8e8e8;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    padding: 25px;
+}
+
+.content h3 {
+    text-align: center;
+}
+
+.content .contentText {
+    width: 100%;
+}
+
+.content img {
+    border-radius: 3px;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+#managerContent {
+    display: grid;
+    align-content: center; 
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));  
+}
+
+.content2 #name {
+    font-family: 'Ramabhadra', sans-serif;
+}
+
+.content2 h3 {
+    font-family: 'Pragati Narrow', sans-serif;
+}
+
+.item1 {
+    grid-column: 1 / span 1;
+    grid-row: 1;
+    width: 70%;
+    text-align: center;
+  }
+
+.item1 p {
+    text-align: start;
+}
+
+.item1 h5 {
+    color: #d2bb74;
+  }
+
+.item1 img {
+    border-radius: 3px;
+    width: 100%;
+    height: 100%;
+    max-width: 370px;
+    max-height: 320px;
+    filter: grayscale(100%);
+}
+
+.item2 {
+    grid-column: 3 / span 2;
+    grid-row: 1 / span 2;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #e8e8e8;;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.image2 {
+    background-image: url("../image/business-computer-connection-contemporary-450035.jpg");
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: 100% 550px;
+    margin-top: 110px;
+    margin-bottom: 110px;
+}
+
+.position2 {
+    text-align: center; 
+    color: #ffffff;
+}
+
+.position2 span {
+    color: #d2bb74;
+}
+
+.position2 h2 {
+    padding-top: 90px; 
+    margin-bottom: 50px;
+    text-shadow: 3px 5px 4px #000000;
+} 
+
+.position2 p {
+    margin-bottom: 50px;
+    text-shadow: 10px 5px 5px #000000;
+}
+
+.position2 button {
+    background-color: #d2bb74;
+    border: none;
+    color: #ffffff;
+    padding: 10px 27px; 
+}
+
+
+.navbar {
+    background-color: #d2bb74;
+    color: #ffffff;
+    padding: 25px 0;
+}
+
+.navbar h3 {
+    font-family: 'Vollkorn', serif;
+}
+
+.navbar button {
+    background-color: #222222;
+    color: #ffffff;
+    border-color: #222222;
+    padding: 10px 27px;
+}
+
+footer {
+    background-color:#222222;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.footItem {
+    color: #ffffff;
+    font-family: 'Harmattan', sans-serif;
+    margin-top: 35px;
+    padding: 10px;
+}
+
+.footItem i {
+    color: #d2bb74;
+}
+
+
+.footItem li {
+    color: #d2bb74;
+}
+
+.footItem input {
+    width: 100%;
+}
+
+.messageBtn {
+    margin-top: 20px;
+}
+
+.messageBtn button {
+    background-color: #d2bb74;
+    border: none;
+    padding: 8px 25px;
+    color: #ffffff;
+    width: 100%;
+}  
+
+
+/* Media Queries */
+@media (max-width: 375px) {
+    header a {
+        display: none;
+    }
+
+    #cards {
+        grid-template-columns: auto;
+    }
+
+    .content img {
+        display: none;
+    }
+
+    .position2 p {
+        margin-bottom: 20px;
+    }
+
+    #managerContent {
+        display: block; 
+    }
+
+    .item1 {
+        margin-left: 30px;
+        margin-bottom: 55px;
+    }
+
+    .item2 {
+        grid-column: 1 /span 2;
+    }
+
+    .position2 h2 {
+        padding-top: 5px;
+    }
+
+    #newsletter {
+        display: none;
+    }
+
+    .footItem {
+        padding: 3px;
+    }
+
+    .footItem i {
+        display: none;
+    }
+}
+
+
+@media (max-width: 414px) {
+    header a {
+        display: none;
+    }
+
+    #cards {
+        grid-template-columns: auto;
+    }
+
+    .content img {
+        display: none;
+    }
+    
+    #managerContent {
+        display: block; 
+    }
+
+    .item1 {
+        margin-left: 30px;
+        margin-bottom: 55px;
+    }
+
+    .item2 {
+        grid-column: 1 /span 2;
+    }
+
+    .position2 h2 {
+        padding-top: 5px;
+    }
+
+    #newsletter {
+        display: none;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .content img {
+        width: 100%;
+        height: 100%;
+        max-width: 300px;
+        max-height: 260px;
+        margin-top: 50px;
+    }
+
+}
